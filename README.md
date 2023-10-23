@@ -7,10 +7,6 @@ This repository contains a comprehensive library for configuring and controlling
 - [Introduction](#introduction)
 - [Library Features](#library-features)
 - [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
-- [Examples](#examples)
-- [License](#license)
-- [Contributing](#contributing)
 
 ## Introduction
 
