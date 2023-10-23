@@ -1,0 +1,351 @@
+
+========================================================================
+
+** ELF Header Information
+
+    File Name: product.axf
+
+    Machine class: ELFCLASS32 (32-bit)
+    Data encoding: ELFDATA2LSB (Little endian)
+    Header version: EV_CURRENT (Current version)
+    Operating System ABI: none
+    ABI Version: 0
+    File Type: ET_EXEC (Executable) (2)
+    Machine: EM_ARM (ARM)
+
+    Image Entry point: 0x00008355
+    Flags: EF_ARM_HASENTRY (0x05000002)
+
+    ARM ELF revision: 5 (ABI version 2)
+
+    Conforms to Base float procedure-call standard
+
+    Built with
+    Component: ARM Compiler 6.14 Tool: armlink [5db06800]
+
+    Header size: 52 bytes (0x34)
+    Program header entry size: 32 bytes (0x20)
+    Section header entry size: 40 bytes (0x28)
+
+    Program header entries: 1
+    Section header entries: 9
+
+    Program header offset: 9768 (0x00002628)
+    Section header offset: 9800 (0x00002648)
+
+    Section header string table index: 8
+
+========================================================================
+
+** Program header #0 (PT_LOAD) [PF_X + PF_W + PF_R + PF_ARM_ENTRY]
+    Size : 1044 bytes (948 bytes in file)
+    Virtual address: 0x00008000 (Alignment 4)
+
+
+========================================================================
+
+** Section #1 'ER_RO' (SHT_PROGBITS) [SHF_ALLOC + SHF_EXECINSTR]
+    Size   : 948 bytes (alignment 4)
+    Address: 0x00008000
+
+
+** Section #2 'ER_ZI' (SHT_NOBITS) [SHF_ALLOC + SHF_WRITE]
+    Size   : 96 bytes (alignment 4)
+    Address: 0x000083b4
+
+
+** Section #3 '.debug_frame' (SHT_PROGBITS)
+    Size   : 940 bytes
+
+
+** Section #4 '.symtab' (SHT_SYMTAB)
+    Size   : 3424 bytes (alignment 4)
+    String table #5 '.strtab'
+    Last local symbol no. 132
+
+    Symbol table .symtab (213 symbols, 132 local)
+
+      #  Symbol Name                Value      Bind  Sec  Type  Vis  Size
+    ========================================================================
+
+      1  $t                         0x00008000   Lc    1   --   De 
+      2  $d                         0x00008034   Lc    1   --   De 
+      3  $t                         0x0000803c   Lc    1   --   De 
+      4  $d                         0x000080f0   Lc    1   --   De 
+      5  $t                         0x000080f4   Lc    1   --   De 
+      6  $d                         0x0000811c   Lc    1   --   De 
+      7  $t                         0x00008124   Lc    1   --   De 
+      8  $d                         0x00008130   Lc    1   --   De 
+      9  $t                         0x00008134   Lc    1   --   De 
+     10  $d                         0x000082ae   Lc    1   --   De 
+     11  $t                         0x000082e8   Lc    1   --   De 
+     12  $t.0                       0x00008328   Lc    1   --   De 
+     13  $t                         0x00008388   Lc    1   --   De 
+     14  $d.realdata                0x000083a4   Lc    1   --   De 
+     15  $d.realdata                0x000083b4   Lc    2   --   De 
+     16  main.c                     0x00000000   Lc  Abs  File  De 
+     17  lib.c                      0x00000000   Lc  Abs  File  De 
+     18  dc.s                       0x00000000   Lc  Abs  File  De 
+     19  ../clib/angel/startup.s    0x00000000   Lc  Abs  File  De 
+     20  !!!main                    0x00008000   Lc    1  Sect  De   0x8
+     21  ../clib/angel/kernel.s     0x00000000   Lc  Abs  File  De 
+     22  .ARM.Collect$$rtentry$$00000000
+                                    0x0000806c   Lc    1  Sect  De 
+     23  ../clib/angel/kernel.s     0x00000000   Lc  Abs  File  De 
+     24  .ARM.Collect$$rtentry$$00000002
+                                    0x0000806c   Lc    1  Sect  De 
+     25  .ARM.Collect$$rtentry$$00000009
+                                    0x00008072   Lc    1  Sect  De 
+     26  .ARM.Collect$$rtentry$$0000000A
+                                    0x00008072   Lc    1  Sect  De   0x4
+     27  .ARM.Collect$$rtentry$$0000000C
+                                    0x00008076   Lc    1  Sect  De 
+     28  .ARM.Collect$$rtentry$$0000000D
+                                    0x00008076   Lc    1  Sect  De   0x8
+     29  ../clib/angel/kernel.s     0x00000000   Lc  Abs  File  De 
+     30  .ARM.Collect$$rtentry$$00000004
+                                    0x0000806c   Lc    1  Sect  De   0x6
+     31  ../clib/angel/sys.s        0x00000000   Lc  Abs  File  De 
+     32  .text                      0x00008090   Lc    1  Sect  De   0x4a
+     33  ../clib/stdlib.c           0x00000000   Lc  Abs  File  De 
+     34  .text                      0x000080da   Lc    1  Sect  De 
+     35  ../clib/angel/boardlib.s   0x00000000   Lc  Abs  File  De 
+     36  ../clib/angel/boardlib.s   0x00000000   Lc  Abs  File  De 
+     37  ../clib/angel/boardlib.s   0x00000000   Lc  Abs  File  De 
+     38  ../clib/libinit.s          0x00000000   Lc  Abs  File  De 
+     39  .ARM.Collect$$libinit$$00000000
+                                    0x00008058   Lc    1  Sect  De   0x2
+     40  ../clib/angel/sys.s        0x00000000   Lc  Abs  File  De 
+     41  .text                      0x000080ec   Lc    1  Sect  De   0x8
+     42  .bss                       0x000083b4   Lc    2  Sect  De   0x60
+     43  ../clib/angel/sys.s        0x00000000   Lc  Abs  File  De 
+     44  .text                      0x000080f4   Lc    1  Sect  De   0x30
+     45  ../clib/angel/sys.s        0x00000000   Lc  Abs  File  De 
+     46  ../clib/angel/kernel.s     0x00000000   Lc  Abs  File  De 
+     47  .ARM.Collect$$rtexit$$00000000
+                                    0x0000807e   Lc    1  Sect  De   0x2
+     48  ../clib/libinit.s          0x00000000   Lc  Abs  File  De 
+     49  .ARM.Collect$$libinit$$00000001
+                                    0x0000805a   Lc    1  Sect  De   0x4
+     50  .ARM.Collect$$libinit$$00000004
+                                    0x0000805e   Lc    1  Sect  De 
+     51  .ARM.Collect$$libinit$$0000000A
+                                    0x0000805e   Lc    1  Sect  De 
+     52  .ARM.Collect$$libinit$$0000000C
+                                    0x0000805e   Lc    1  Sect  De 
+     53  .ARM.Collect$$libinit$$0000000E
+                                    0x0000805e   Lc    1  Sect  De 
+     54  .ARM.Collect$$libinit$$00000011
+                                    0x0000805e   Lc    1  Sect  De 
+     55  .ARM.Collect$$libinit$$00000013
+                                    0x0000805e   Lc    1  Sect  De 
+     56  .ARM.Collect$$libinit$$00000015
+                                    0x0000805e   Lc    1  Sect  De 
+     57  .ARM.Collect$$libinit$$00000017
+                                    0x0000805e   Lc    1  Sect  De 
+     58  .ARM.Collect$$libinit$$00000019
+                                    0x0000805e   Lc    1  Sect  De 
+     59  .ARM.Collect$$libinit$$0000001B
+                                    0x0000805e   Lc    1  Sect  De 
+     60  .ARM.Collect$$libinit$$0000001D
+                                    0x0000805e   Lc    1  Sect  De 
+     61  .ARM.Collect$$libinit$$0000001F
+                                    0x0000805e   Lc    1  Sect  De 
+     62  .ARM.Collect$$libinit$$00000021
+                                    0x0000805e   Lc    1  Sect  De 
+     63  .ARM.Collect$$libinit$$00000023
+                                    0x0000805e   Lc    1  Sect  De 
+     64  .ARM.Collect$$libinit$$00000025
+                                    0x0000805e   Lc    1  Sect  De 
+     65  .ARM.Collect$$libinit$$00000027
+                                    0x0000805e   Lc    1  Sect  De   0x8
+     66  .ARM.Collect$$libinit$$0000002E
+                                    0x00008066   Lc    1  Sect  De 
+     67  .ARM.Collect$$libinit$$00000030
+                                    0x00008066   Lc    1  Sect  De 
+     68  .ARM.Collect$$libinit$$00000032
+                                    0x00008066   Lc    1  Sect  De 
+     69  .ARM.Collect$$libinit$$00000033
+                                    0x00008066   Lc    1  Sect  De   0x2
+     70  ../clib/angel/sys.s        0x00000000   Lc  Abs  File  De 
+     71  .text                      0x00008124   Lc    1  Sect  De   0x2
+     72  ../clib/angel/sys.s        0x00000000   Lc  Abs  File  De 
+     73  .text                      0x00008126   Lc    1  Sect  De 
+     74  ../clib/angel/kernel.s     0x00000000   Lc  Abs  File  De 
+     75  .ARM.Collect$$rtexit$$00000002
+                                    0x00008080   Lc    1  Sect  De 
+     76  .ARM.Collect$$rtexit$$00000003
+                                    0x00008080   Lc    1  Sect  De   0x4
+     77  .ARM.Collect$$rtexit$$00000004
+                                    0x00008084   Lc    1  Sect  De   0x6
+     78  ../clib/armsys.c           0x00000000   Lc  Abs  File  De 
+     79  .emb_text                  0x0000808c   Lc    1  Sect  De   0x4
+     80  ../clib/armsys.c           0x00000000   Lc  Abs  File  De 
+     81  ../fplib/fpinit.s          0x00000000   Lc  Abs  File  De 
+     82  x$fpl$fpinit               0x00008388   Lc    1  Sect  De   0x1a
+     83  $v0                        0x00008388   Lc    1   --   De 
+     84  ../clib/angel/sysapp.c     0x00000000   Lc  Abs  File  De 
+     85  .text                      0x00008128   Lc    1  Sect  De 
+     86  ../clib/angel/sysapp.c     0x00000000   Lc  Abs  File  De 
+     87  ../clib/angel/boardlib.s   0x00000000   Lc  Abs  File  De 
+     88  ../clib/armsys.c           0x00000000   Lc  Abs  File  De 
+     89  .text                      0x00008134   Lc    1  Sect  De 
+     90  ../clib/armsys.c           0x00000000   Lc  Abs  File  De 
+     91  ../clib/libinit.s          0x00000000   Lc  Abs  File  De 
+     92  .ARM.Collect$$libshutdown$$00000000
+                                    0x00008068   Lc    1  Sect  De   0x2
+     93  ../clib/angel/sysapp.c     0x00000000   Lc  Abs  File  De 
+     94  .text                      0x00008262   Lc    1  Sect  De 
+     95  ../clib/angel/sysapp.c     0x00000000   Lc  Abs  File  De 
+     96  ../clib/heapalloc.c        0x00000000   Lc  Abs  File  De 
+     97  .text                      0x0000827a   Lc    1  Sect  De 
+     98  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+     99  .text                      0x0000827e   Lc    1  Sect  De 
+    100  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    101  ../clib/libinit.s          0x00000000   Lc  Abs  File  De 
+    102  .ARM.Collect$$libshutdown$$00000002
+                                    0x0000806a   Lc    1  Sect  De 
+    103  .ARM.Collect$$libshutdown$$00000004
+                                    0x0000806a   Lc    1  Sect  De 
+    104  .ARM.Collect$$libshutdown$$00000007
+                                    0x0000806a   Lc    1  Sect  De 
+    105  .ARM.Collect$$libshutdown$$0000000A
+                                    0x0000806a   Lc    1  Sect  De 
+    106  .ARM.Collect$$libshutdown$$0000000C
+                                    0x0000806a   Lc    1  Sect  De 
+    107  .ARM.Collect$$libshutdown$$0000000F
+                                    0x0000806a   Lc    1  Sect  De 
+    108  .ARM.Collect$$libshutdown$$00000010
+                                    0x0000806a   Lc    1  Sect  De   0x2
+    109  ../clib/angel/rt.s         0x00000000   Lc  Abs  File  De 
+    110  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    111  .text                      0x0000828c   Lc    1  Sect  De 
+    112  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    113  .text                      0x00008298   Lc    1  Sect  De 
+    114  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    115  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    116  .text                      0x000082e8   Lc    1  Sect  De 
+    117  ../clib/angel/sysapp.c     0x00000000   Lc  Abs  File  De 
+    118  .text                      0x0000831a   Lc    1  Sect  De 
+    119  ../clib/angel/sysapp.c     0x00000000   Lc  Abs  File  De 
+    120  ../clib/signal.s           0x00000000   Lc  Abs  File  De 
+    121  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    122  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    123  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    124  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    125  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    126  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    127  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    128  ../clib/signal.c           0x00000000   Lc  Abs  File  De 
+    129  ../clib/angel/scatter.s    0x00000000   Lc  Abs  File  De 
+    130  !!!scatter                 0x00008008   Lc    1  Sect  De   0x34
+    131  ../clib/angel/handlers.s   0x00000000   Lc  Abs  File  De 
+    132  !!handler_zi               0x0000803c   Lc    1  Sect  De   0x1c
+    133  BuildAttributes$$THM_ISAv4$E$P$D$K$B$S$7EM$VFPi3$EXTD16$VFPS$VFMA$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$WCHAR32$ENUMINT$~SHL$OSPACE$ROPI$UX$STANDARDLIB$REQ8$PRES8$EABIv2
+                                    0x00000000   Gb  Abs   --   Hi 
+    134  __main                     0x00008001   Gb    1  Code  Hi   0x8
+    135  __scatterload              0x00008009   Gb    1  Code  Hi 
+    136  __scatterload_rt2          0x00008009   Gb    1  Code  Hi   0x2c
+    137  __scatterload_rt2_thumb_only
+                                    0x00008009   Gb    1  Code  Hi 
+    138  __scatterload_null         0x00008017   Gb    1  Code  Hi 
+    139  __scatterload_zeroinit     0x0000803d   Gb    1  Code  Hi   0x1c
+    140  __rt_lib_init              0x00008059   Gb    1  Code  De 
+    141  __rt_lib_init_fp_1         0x0000805b   Gb    1  Code  Hi 
+    142  __rt_lib_init_argv_1       0x0000805f   Gb    1  Code  Hi 
+    143  __rt_lib_init_atexit_1     0x0000805f   Gb    1  Code  Hi 
+    144  __rt_lib_init_clock_1      0x0000805f   Gb    1  Code  Hi 
+    145  __rt_lib_init_fp_trap_1    0x0000805f   Gb    1  Code  Hi 
+    146  __rt_lib_init_getenv_1     0x0000805f   Gb    1  Code  Hi 
+    147  __rt_lib_init_heap_1       0x0000805f   Gb    1  Code  Hi 
+    148  __rt_lib_init_heapregion_libspace_used
+                                    0x0000805f   Gb    1  Code  Hi 
+    149  __rt_lib_init_lc_collate_1 0x0000805f   Gb    1  Code  Hi 
+    150  __rt_lib_init_lc_ctype_1   0x0000805f   Gb    1  Code  Hi 
+    151  __rt_lib_init_lc_monetary_1
+                                    0x0000805f   Gb    1  Code  Hi 
+    152  __rt_lib_init_lc_numeric_1 0x0000805f   Gb    1  Code  Hi 
+    153  __rt_lib_init_lc_time_1    0x0000805f   Gb    1  Code  Hi 
+    154  __rt_lib_init_preinit_1    0x0000805f   Gb    1  Code  Hi 
+    155  __rt_lib_init_rand_1       0x0000805f   Gb    1  Code  Hi 
+    156  __rt_lib_init_signal_1     0x0000805f   Gb    1  Code  Hi 
+    157  __rt_lib_init_stdio_1      0x0000805f   Gb    1  Code  Hi 
+    158  __rt_lib_init_user_alloc_1 0x0000805f   Gb    1  Code  Hi 
+    159  __rt_lib_init_alloca_1     0x00008067   Gb    1  Code  Hi 
+    160  __rt_lib_init_cpp_1        0x00008067   Gb    1  Code  Hi 
+    161  __rt_lib_init_exceptions_1 0x00008067   Gb    1  Code  Hi 
+    162  __rt_lib_init_return       0x00008067   Gb    1  Code  Hi 
+    163  __rt_lib_shutdown          0x00008069   Gb    1  Code  De 
+    164  __rt_lib_shutdown_cpp_1    0x0000806b   Gb    1  Code  Hi 
+    165  __rt_lib_shutdown_fp_trap_1
+                                    0x0000806b   Gb    1  Code  Hi 
+    166  __rt_lib_shutdown_heap_1   0x0000806b   Gb    1  Code  Hi 
+    167  __rt_lib_shutdown_return   0x0000806b   Gb    1  Code  Hi 
+    168  __rt_lib_shutdown_signal_1 0x0000806b   Gb    1  Code  Hi 
+    169  __rt_lib_shutdown_stdio_1  0x0000806b   Gb    1  Code  Hi 
+    170  __rt_lib_shutdown_user_alloc_1
+                                    0x0000806b   Gb    1  Code  Hi 
+    171  __rt_entry                 0x0000806d   Gb    1  Code  Hi 
+    172  __rt_entry_presh_1         0x0000806d   Gb    1  Code  Hi 
+    173  __rt_entry_sh              0x0000806d   Gb    1  Code  Hi 
+    174  __rt_entry_li              0x00008073   Gb    1  Code  Hi 
+    175  __rt_entry_postsh_1        0x00008073   Gb    1  Code  Hi 
+    176  __rt_entry_main            0x00008077   Gb    1  Code  Hi 
+    177  __rt_entry_postli_1        0x00008077   Gb    1  Code  Hi 
+    178  __rt_exit                  0x0000807f   Gb    1  Code  De 
+    179  __rt_exit_ls               0x00008081   Gb    1  Code  Hi 
+    180  __rt_exit_prels_1          0x00008081   Gb    1  Code  Hi 
+    181  __rt_exit_exit             0x00008085   Gb    1  Code  Hi 
+    182  __ARM_argv_veneer          0x0000808d   Gb    1  Code  Hi   0x4
+    183  __user_setup_stackheap     0x00008091   Gb    1  Code  De   0x4a
+    184  exit                       0x000080db   Gb    1  Code  De   0x12
+    185  __user_libspace            0x000080ed   Wk    1  Code  De   0x8
+    186  __user_perproc_libspace    0x000080ed   Wk    1  Code  De 
+    187  __user_perthread_libspace  0x000080ed   Wk    1  Code  De 
+    188  __user_initial_stackheap   0x000080f5   Gb    1  Code  De   0x30
+    189  _RW_Limit                  0x00008120   Gb    1  Data  De 
+    190  __I$use$semihosting        0x00008125   Gb    1  Code  Hi 
+    191  __use_no_semihosting_swi   0x00008125   Gb    1  Code  Hi   0x2
+    192  __semihosting_library_function
+                                    0x00008127   Gb    1  Code  Hi 
+    193  _sys_exit                  0x00008129   Gb    1  Code  De   0x8
+    194  __argv_alloc               0x00008135   Gb    1  Code  Hi   0x22
+    195  __ARM_get_argv             0x00008157   Gb    1  Code  Hi   0x10c
+    196  _sys_command_string        0x00008263   Gb    1  Code  Hi   0x18
+    197  __use_no_heap_region       0x0000827b   Gb    1  Code  Hi   0x2
+    198  __heap_region$guard        0x0000827d   Gb    1  Code  Hi   0x2
+    199  __rt_SIGRTMEM              0x0000827f   Gb    1  Code  Hi   0xe
+    200  __sig_exit                 0x0000828d   Gb    1  Code  De   0xa
+    201  __rt_SIGRTMEM_inner        0x00008299   Gb    1  Code  De   0x16
+    202  __default_signal_display   0x000082e9   Gb    1  Code  De   0x32
+    203  _ttywrch                   0x0000831b   Gb    1  Code  De   0xe
+    204  f_App_Sum                  0x00008329   Gb    1  Code  Hi   0x2a
+    205  main                       0x00008355   Gb    1  Code  Hi   0x34
+    206  _fp_init                   0x00008389   Gb    1  Code  De   0x1a
+    207  __fplib_config_fpu_vfp     0x000083a1   Gb    1  Code  De 
+    208  __fplib_config_pureend_doubles
+                                    0x000083a1   Gb    1  Code  De 
+    209  Region$$Table$$Base        0x000083a4   Gb    1   --   Hi 
+    210  Region$$Table$$Limit       0x000083b4   Gb    1   --   Hi 
+    211  __libspace_start           0x000083b4   Gb    2  Data  De   0x60
+    212  Image$$ZI$$Limit           0x00008414   Gb  Abs   --   Hi 
+    213  __temporary_stack_top$libspace
+                                    0x00008414   Gb    2  Data  De 
+
+
+** Section #5 '.strtab' (SHT_STRTAB)
+    Size   : 3572 bytes
+
+
+** Section #6 '.note' (SHT_NOTE)
+    Size   : 24 bytes (alignment 4)
+
+
+** Section #7 '.comment' (SHT_PROGBITS)
+    Size   : 732 bytes
+
+
+** Section #8 '.shstrtab' (SHT_STRTAB)
+    Size   : 76 bytes
+
+

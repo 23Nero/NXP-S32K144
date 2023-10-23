@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "port_gpio.h": "c",
+        "scg.h": "c"
+    }
+}

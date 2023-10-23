@@ -1,0 +1,82 @@
+
+========================================================================
+
+** ELF Header Information
+
+    File Name: product.axf
+
+    Machine class: ELFCLASS32 (32-bit)
+    Data encoding: ELFDATA2LSB (Little endian)
+    Header version: EV_CURRENT (Current version)
+    Operating System ABI: none
+    ABI Version: 0
+    File Type: ET_EXEC (Executable) (2)
+    Machine: EM_ARM (ARM)
+
+    Image Entry point: 0x00008355
+    Flags: EF_ARM_HASENTRY (0x05000002)
+
+    ARM ELF revision: 5 (ABI version 2)
+
+    Conforms to Base float procedure-call standard
+
+    Built with
+    Component: ARM Compiler 6.14 Tool: armlink [5db06800]
+
+    Header size: 52 bytes (0x34)
+    Program header entry size: 32 bytes (0x20)
+    Section header entry size: 40 bytes (0x28)
+
+    Program header entries: 1
+    Section header entries: 9
+
+    Program header offset: 9768 (0x00002628)
+    Section header offset: 9800 (0x00002648)
+
+    Section header string table index: 8
+
+========================================================================
+
+** Program header #0 (PT_LOAD) [PF_X + PF_W + PF_R + PF_ARM_ENTRY]
+    Size : 1044 bytes (948 bytes in file)
+    Virtual address: 0x00008000 (Alignment 4)
+
+
+========================================================================
+
+** Section #1 'ER_RO' (SHT_PROGBITS) [SHF_ALLOC + SHF_EXECINSTR]
+    Size   : 948 bytes (alignment 4)
+    Address: 0x00008000
+
+
+** Section #2 'ER_ZI' (SHT_NOBITS) [SHF_ALLOC + SHF_WRITE]
+    Size   : 96 bytes (alignment 4)
+    Address: 0x000083b4
+
+
+** Section #3 '.debug_frame' (SHT_PROGBITS)
+    Size   : 940 bytes
+
+
+** Section #4 '.symtab' (SHT_SYMTAB)
+    Size   : 3424 bytes (alignment 4)
+    String table #5 '.strtab'
+    Last local symbol no. 132
+
+
+** Section #5 '.strtab' (SHT_STRTAB)
+    Size   : 3572 bytes
+
+
+** Section #6 '.note' (SHT_NOTE)
+    Size   : 24 bytes (alignment 4)
+
+
+** Section #7 '.comment' (SHT_PROGBITS)
+    Size   : 732 bytes
+
+
+** Section #8 '.shstrtab' (SHT_STRTAB)
+    Size   : 76 bytes
+
+
